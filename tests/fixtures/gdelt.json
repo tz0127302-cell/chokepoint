@@ -1,0 +1,15 @@
+{
+  "articles": [
+    {
+      "url": "https://example.com/gdelt",
+      "title": "Suez Canal traffic",
+      "seendate": "20261116T120000Z",
+      "domain": "example.com"
+    },
+    {
+      "url": "not a url",
+      "title": "Drop me",
+      "seendate": "20261116T120000Z"
+    }
+  ]
+}

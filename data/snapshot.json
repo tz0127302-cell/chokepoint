@@ -1,0 +1,115 @@
+{
+  "kind": "fixture",
+  "generatedAt": "2026-11-16T12:00:00.000Z",
+  "label": "Mid-November 2026 public-reporting fixture",
+  "about": "Bundled so the app works offline. Headlines are short attributions, not full articles. The status words are a reading of public reporting, not a verification and not a measurement of oil flows.",
+  "passages": {
+    "hormuz": {
+      "status": "disrupted",
+      "updatedAt": "2026-11-16T12:00:00.000Z",
+      "statusSummary": "Public reports dated 16 November 2026 described fires on oil tankers in the Strait of Hormuz. A UKMTO alert, as carried by ABC News, described an unknown projectile and an engine-room fire, with no casualties reported in that account. Iranian military statements, as carried by AP and Al Arabiya, described naval mines and more than one ship. Those accounts do not agree on the cause or the number of ships. Several reports also describe limits on which routes ships may use. This project has not verified the incidents. “Disrupted” means the reporting describes interrupted transit. It is not a count of barrels."
+    },
+    "bab-al-mandab": {
+      "status": "uncertain",
+      "updatedAt": "2026-11-16T12:00:00.000Z",
+      "statusSummary": "Public reports dated 15 and 16 November 2026 said forces aligned with Yemen’s internationally recognized government withdrew from the Bab al-Mandab area as Houthi forces moved into positions overlooking the strait, including Perim Island. The same reporting did not agree on whether ordinary commercial ships had stopped using the strait. Some November notices from the Suez Canal Authority describe shipping lines returning, which would require this passage. Because the picture is mixed, the status is uncertain rather than a declared closure."
+    },
+    "suez": {
+      "status": "open",
+      "updatedAt": "2026-11-16T12:00:00.000Z",
+      "statusSummary": "The Suez Canal Authority’s public news index listed a 15 November 2026 item, “ONE returns to the Suez Canal,” among other November notes about lines returning. This snapshot contains no authority notice that the canal is closed. Ships still have to transit Bab al-Mandab to reach Suez from the south, and that strait’s status is uncertain. The canal status in this snapshot is open."
+    },
+    "panama": {
+      "status": "open",
+      "updatedAt": "2026-11-16T12:00:00.000Z",
+      "statusSummary": "This snapshot contains no public notice that the Panama Canal is closed. The Panama Canal Authority publishes draft limits, booking rules, and daily transit slots. Those can tighten without the canal being shut. Check the authority for an operational decision."
+    },
+    "malacca": {
+      "status": "open",
+      "updatedAt": "2026-11-16T12:00:00.000Z",
+      "statusSummary": "This snapshot contains no public notice that the Strait of Malacca is closed. It remains the largest oil-transit chokepoint in EIA’s published table. Piracy and theft are a separate problem, reported by the IMB Piracy Reporting Centre, and are not treated here as a closure."
+    },
+    "turkish": {
+      "status": "open",
+      "updatedAt": "2026-11-16T12:00:00.000Z",
+      "statusSummary": "This snapshot contains no public notice that the Bosporus or the Dardanelles is closed. Türkiye sometimes pauses traffic for weather, visibility, or an accident. Those pauses are local. The 1936 Montreux Convention is the public legal framework for passage. This project does not track warship movements."
+    },
+    "cape": {
+      "status": "open",
+      "updatedAt": "2026-11-16T12:00:00.000Z",
+      "statusSummary": "The Cape of Good Hope is open water around southern Africa, not a gate. It is available in this snapshot. It is the long alternative when Suez or Bab al-Mandab is unattractive, and it is not an alternative to Hormuz. EIA’s table shows oil around the Cape already higher in 2024 and the first half of 2025 than in 2023."
+    }
+  },
+  "news": [
+    {
+      "id": "fx-ap-hormuz-20261116",
+      "title": "Houthis accuse Saudi Arabia of strikes that killed 3 including a child, and other Mideast news",
+      "url": "https://apnews.com/article/mideast-news-israel-gaza-iran-houthis-november-16-2026-8830a880160d69e2d7f1fd654207a121",
+      "publisher": "AP",
+      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "snippet": "In a Middle East roundup, AP reported that Iran said three oil tankers caught fire after striking naval mines in the Strait of Hormuz.",
+      "passageIds": ["hormuz"],
+      "kind": "headline"
+    },
+    {
+      "id": "fx-abc-hormuz-20261116",
+      "title": "Iran live updates: Tanker attacked in Strait of Hormuz, UKMTO says",
+      "url": "https://abcnews.com/International/live-updates/iran-live-updates-tanker-attacked-strait-hormuz-ukmto/?id=138171071",
+      "publisher": "ABC News",
+      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "snippet": "ABC News reported a UKMTO alert: a tanker outbound in the Strait of Hormuz was struck by an unknown projectile, and an engine-room fire followed. That account reported no casualties.",
+      "passageIds": ["hormuz"],
+      "kind": "headline"
+    },
+    {
+      "id": "fx-alarabiya-hormuz-20261116",
+      "title": "Oil tanker set ablaze by attack in Strait of Hormuz, marine monitors say",
+      "url": "https://english.alarabiya.net/News/middle-east/2026/11/16/oil-tanker-on-fire-in-strait-of-hormuz-due-to-naval-mine-iran-s-army-says",
+      "publisher": "Al Arabiya",
+      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "snippet": "Al Arabiya reported maritime monitors describing a tanker on fire in the Strait of Hormuz after a projectile strike, and Iranian statements about naval mines. The reported scale differs by source.",
+      "passageIds": ["hormuz"],
+      "kind": "headline"
+    },
+    {
+      "id": "fx-tradewinds-bab-20261115",
+      "title": "Saudi ships face new hurdles after Houthis win back Bab el-Mandeb strait",
+      "url": "https://www.tradewindsnews.com/containers/saudi-ships-face-new-hurdles-after-houthis-win-back-bab-el-mandeb-strait/2-1-2074332",
+      "publisher": "TradeWinds",
+      "publishedAt": "2026-11-15T00:00:00.000Z",
+      "snippet": "TradeWinds reported that Houthi forces had retaken ground at Bab el-Mandeb and that Saudi-linked shipping faced new hurdles.",
+      "passageIds": ["bab-al-mandab"],
+      "kind": "headline"
+    },
+    {
+      "id": "fx-worldports-bab-20261116",
+      "title": "Houthis Recapture Positions Overlooking the Bab el Mandeb",
+      "url": "https://www.worldports.org/houthis-recapture-positions-overlooking-the-bab-el-mandeb/",
+      "publisher": "World Ports Organization",
+      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "snippet": "The outlet reported that government-aligned forces withdrew from the Bab al-Mandab area and that Houthi forces advanced into overlooking positions, including Perim Island. It said ordinary commercial transit had not been uniformly stopped.",
+      "passageIds": ["bab-al-mandab"],
+      "kind": "headline"
+    },
+    {
+      "id": "fx-sca-suez-20261115",
+      "title": "ONE returns to the Suez Canal",
+      "url": "https://www.suezcanal.gov.eg/English/MediaCenter/News/pages/default.aspx",
+      "publisher": "Suez Canal Authority",
+      "publishedAt": "2026-11-15T00:00:00.000Z",
+      "snippet": "The Suez Canal Authority news index listed this item on 15 November 2026. The link is the authority’s news index, not a separate article page.",
+      "passageIds": ["suez"],
+      "kind": "headline"
+    },
+    {
+      "id": "fx-eia-cape-note",
+      "title": "Fixture note: Cape oil volumes were already higher than in 2023",
+      "url": "https://www.eia.gov/international/content/analysis/special_topics/world_oil_transit_chokepoints/",
+      "publisher": "Fixture, citing EIA",
+      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "snippet": "EIA’s published table shows 9.1 million barrels a day of oil around the Cape of Good Hope in the first half of 2025, compared with 6.2 million in 2023. This note is part of the bundled fixture, not a news article.",
+      "passageIds": ["cape"],
+      "kind": "note"
+    }
+  ]
+}
