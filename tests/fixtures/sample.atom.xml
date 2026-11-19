@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Example Atom</title>
+  <entry>
+    <title>Bab el-Mandeb advisory</title>
+    <link rel="alternate" href="https://example.com/bab" />
+    <link rel="edit" href="https://example.com/bab/edit" />
+    <published>2026-11-15T18:00:00Z</published>
+    <summary type="html">&lt;p&gt;Forces withdrew from the strait.&lt;/p&gt;</summary>
+    <id>tag:example:bab</id>
+  </entry>
+</feed>

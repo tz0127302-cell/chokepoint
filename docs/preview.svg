@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 660" role="img" aria-labelledby="title desc">
+  <title id="title">chokepoint schematic, 16 November 2026 fixture</title>
+  <desc id="desc">A diagram, not a map. Hormuz is disrupted, Bab al-Mandab is uncertain, and Suez, Panama, Malacca, the Turkish Straits, and the Cape route are open.</desc>
+  <rect width="1000" height="660" fill="#f3efe4"/>
+  <text x="36" y="42" fill="#847c70" font-family="ui-monospace, monospace" font-size="12" letter-spacing="2">PUBLIC MARITIME STATUS</text>
+  <text x="36" y="78" fill="#1b1914" font-family="Georgia, serif" font-size="36">chokepoint</text>
+  <rect x="232" y="54" width="10" height="10" fill="#9a3d1c"/>
+  <text x="700" y="72" fill="#5c564c" font-family="ui-monospace, monospace" font-size="12">Fixture · 16 Nov 2026 · not for navigation</text>
+  <rect x="24" y="104" width="952" height="500" fill="#d5e4ec"/>
+  <ellipse cx="190" cy="210" rx="100" ry="52" fill="#efe4d0"/>
+  <ellipse cx="760" cy="210" rx="90" ry="48" fill="#efe4d0"/>
+  <ellipse cx="250" cy="430" rx="110" ry="56" fill="#efe4d0"/>
+  <ellipse cx="910" cy="250" rx="52" ry="36" fill="#efe4d0"/>
+  <rect x="48" y="530" width="270" height="58" rx="8" fill="none" stroke="#ddd4c4"/>
+  <path d="M64 300 H960" fill="none" stroke="#1d4e68" stroke-width="1.6"/>
+  <path d="M214 174 V300" fill="none" stroke="#1d4e68" stroke-width="1.2"/>
+  <path d="M692 164 V300" fill="none" stroke="#1d4e68" stroke-width="1.2"/>
+  <path d="M528 318 V470 H88 V316" fill="none" stroke="#8a5a16" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <path d="M70 558 H286" fill="none" stroke="#1d4e68" stroke-width="1.2"/>
+  <g font-family="ui-monospace, monospace" font-size="11" fill="#5c564c" letter-spacing="1.5">
+    <text x="214" y="128" text-anchor="middle">BLACK SEA</text>
+    <text x="692" y="124" text-anchor="middle">GULF</text>
+    <text x="132" y="284" text-anchor="middle">MEDITERRANEAN</text>
+    <text x="442" y="284" text-anchor="middle">RED SEA</text>
+    <text x="790" y="284" text-anchor="middle">ARABIAN SEA</text>
+    <text x="948" y="284" text-anchor="middle">EAST ASIA</text>
+    <text x="78" y="578" text-anchor="middle">ATLANTIC</text>
+    <text x="250" y="578" text-anchor="middle">PACIFIC</text>
+  </g>
+  <g font-family="Georgia, serif" font-size="14" fill="#1b1914">
+    <g>
+      <circle cx="214" cy="174" r="16" fill="#fbf8f1" stroke="#1d6a45" stroke-width="2"/>
+      <circle cx="214" cy="174" r="3.2" fill="#1d6a45"/>
+      <text x="196" y="178" text-anchor="end">Turkish Straits</text>
+    </g>
+    <g>
+      <circle cx="692" cy="164" r="16" fill="#fbf8f1" stroke="#9a3d1c" stroke-width="2.4"/>
+      <circle cx="692" cy="164" r="3.2" fill="#9a3d1c"/>
+      <text x="712" y="168">Hormuz</text>
+    </g>
+    <g>
+      <circle cx="356" cy="300" r="16" fill="#fbf8f1" stroke="#1d6a45" stroke-width="2"/>
+      <circle cx="356" cy="300" r="3.2" fill="#1d6a45"/>
+      <text x="356" y="336" text-anchor="middle">Suez</text>
+    </g>
+    <g>
+      <circle cx="528" cy="300" r="16" fill="#fbf8f1" stroke="#8a5b10" stroke-width="2.4"/>
+      <circle cx="528" cy="300" r="3.2" fill="#8a5b10"/>
+      <text x="548" y="328">Bab al-Mandab</text>
+    </g>
+    <g>
+      <circle cx="848" cy="300" r="16" fill="#fbf8f1" stroke="#1d6a45" stroke-width="2"/>
+      <circle cx="848" cy="300" r="3.2" fill="#1d6a45"/>
+      <text x="848" y="336" text-anchor="middle">Malacca</text>
+    </g>
+    <g>
+      <circle cx="318" cy="470" r="16" fill="#fbf8f1" stroke="#1d6a45" stroke-width="2"/>
+      <circle cx="318" cy="470" r="3.2" fill="#1d6a45"/>
+      <text x="318" y="446" text-anchor="middle">Cape of Good Hope</text>
+    </g>
+    <g>
+      <circle cx="168" cy="558" r="16" fill="#fbf8f1" stroke="#1d6a45" stroke-width="2"/>
+      <circle cx="168" cy="558" r="3.2" fill="#1d6a45"/>
+      <text x="168" y="534" text-anchor="middle">Panama</text>
+    </g>
+  </g>
+  <g font-family="ui-sans-serif, sans-serif" font-size="13" fill="#1b1914">
+    <circle cx="40" cy="640" r="5" fill="#9a3d1c"/>
+    <text x="52" y="644">Disrupted</text>
+    <circle cx="150" cy="640" r="5" fill="#8a5b10"/>
+    <text x="162" y="644">Uncertain</text>
+    <circle cx="270" cy="640" r="5" fill="#1d6a45"/>
+    <text x="282" y="644">Open</text>
+    <text x="560" y="644" fill="#5c564c">Schematic, not to scale. Not a navigational chart.</text>
+  </g>
+</svg>

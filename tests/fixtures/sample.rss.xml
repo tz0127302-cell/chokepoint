@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Example</title>
+    <item>
+      <title><![CDATA[Strait of Hormuz &amp; mines]]></title>
+      <link>https://example.com/hormuz</link>
+      <pubDate>Mon, 16 Nov 2026 08:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Tankers caught fire after a naval mine.</p><script>alert(1)</script>]]></description>
+      <guid>https://example.com/hormuz</guid>
+    </item>
+    <item>
+      <title>No link here</title>
+      <description>Skip me</description>
+    </item>
+    <item>
+      <title>Same again</title>
+      <link>https://example.com/hormuz</link>
+      <description>Duplicate link</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "bbc-world",
+    "publisher": "BBC News",
+    "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+    "kind": "rss",
+    "enabled": true,
+    "notes": "Public world RSS. No key. Fetched by the CLI or the local server, not by the browser."
+  },
+  {
+    "id": "guardian-world",
+    "publisher": "The Guardian",
+    "url": "https://www.theguardian.com/world/rss",
+    "kind": "rss",
+    "enabled": true,
+    "notes": "Public world RSS. No key."
+  },
+  {
+    "id": "al-jazeera",
+    "publisher": "Al Jazeera",
+    "url": "https://www.aljazeera.com/xml/rss/all.xml",
+    "kind": "rss",
+    "enabled": true,
+    "notes": "Public RSS. No key."
+  },
+  {
+    "id": "un-news",
+    "publisher": "UN News",
+    "url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+    "kind": "rss",
+    "enabled": true,
+    "notes": "Public RSS from UN News. No key."
+  },
+  {
+    "id": "dw-english",
+    "publisher": "DW",
+    "url": "https://rss.dw.com/xml/rss-en-all",
+    "kind": "rss",
+    "enabled": true,
+    "notes": "Public English RSS. No key."
+  },
+  {
+    "id": "gdelt-chokepoints",
+    "publisher": "GDELT DOC",
+    "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=(%22Strait%20of%20Hormuz%22%20OR%20%22Bab%20al-Mandab%22%20OR%20%22Bab%20el-Mandeb%22%20OR%20%22Suez%20Canal%22%20OR%20%22Panama%20Canal%22%20OR%20%22Strait%20of%20Malacca%22)%20sourcelang:english&mode=ArtList&format=json&maxrecords=25&sort=datedesc",
+    "kind": "gdelt",
+    "enabled": false,
+    "notes": "Optional public API. No key. Off by default. Enable only if you accept GDELT’s terms. Results are headlines and links, not full text."
+  }
+]

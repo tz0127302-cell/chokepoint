@@ -1,0 +1,57 @@
+{
+  "name": "chokepoint",
+  "version": "0.1.0",
+  "description": "Public dashboard and CLI for major maritime chokepoints. Unofficial. Not operational or financial advice.",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tz0127302-cell/chokepoint.git"
+  },
+  "homepage": "https://github.com/tz0127302-cell/chokepoint",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "chokepoint": "./bin/chokepoint.js"
+  },
+  "scripts": {
+    "dev": "tsx src/server/dev.ts",
+    "start": "node dist/server/index.js",
+    "prestart": "npm run build",
+    "build": "tsc -p tsconfig.web.json --noEmit && tsc -p tsconfig.server.json && tsc -p tsconfig.tests.json --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 4319 --strictPort",
+    "typecheck": "tsc -p tsconfig.web.json --noEmit && tsc -p tsconfig.server.json --noEmit && tsc -p tsconfig.tests.json --noEmit",
+    "test": "vitest run",
+    "chokepoint": "tsx src/cli/index.ts"
+  },
+  "keywords": [
+    "maritime",
+    "shipping",
+    "chokepoints",
+    "energy",
+    "dashboard",
+    "journalism"
+  ],
+  "dependencies": {
+    "@fontsource/ibm-plex-mono": "^5.0.0",
+    "@fontsource/newsreader": "^5.0.0",
+    "@fontsource/outfit": "^5.0.0",
+    "commander": "^12.1.0",
+    "fast-xml-parser": "^4.5.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^6.28.0",
+    "tsx": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.0",
+    "vitest": "^2.1.8"
+  }
+}
